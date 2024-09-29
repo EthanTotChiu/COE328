@@ -1,0 +1,84 @@
+EDA Netlist Writer report for Lab3
+Wed Oct  4 18:05:14 2023
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; EDA Netlist Writer Summary                                    ;
++---------------------------+-----------------------------------+
+; EDA Netlist Writer Status ; Failed - Wed Oct  4 18:05:14 2023 ;
+; Revision Name             ; Lab3                              ;
+; Top-level Entity Name     ; sseg                              ;
+; Family                    ; Cyclone II                        ;
++---------------------------+-----------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit EDA Netlist Writer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Wed Oct  4 18:05:14 2023
+Info: Command: quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Lab3 -c Lab3 --vector_source=/home/student2/edchiu/Desktop/coe328/Lab3/ASU_demo.vwf --testbench_file=./simulation/qsim/Lab3.vt
+Warning (201007): Can't find port "Cout" in design
+Warning (201007): Can't find port "Overflow" in design
+Error (201008): Bus port "leds" specified in vector source file has ports with indices that do not fall in the range of port leds[1:7] in top level design of Quartus II project
+Warning (201007): Can't find port "leds[0]" in design
+Warning (201007): Can't find port "Cout" in design
+Warning (201007): Can't find port "Overflow" in design
+Error (201008): Bus port "leds" specified in vector source file has ports with indices that do not fall in the range of port leds[1:7] in top level design of Quartus II project
+Warning (201007): Can't find port "leds[0]" in design
+Error (201008): Bus port "ledss" specified in vector source file has ports with indices that do not fall in the range of port ledss[1:7] in top level design of Quartus II project
+Warning (201007): Can't find port "ledss[0]" in design
+Error (201008): Bus port "leds" specified in vector source file has ports with indices that do not fall in the range of port leds[1:7] in top level design of Quartus II project
+Warning (201007): Can't find port "leds[0]" in design
+Error (201008): Bus port "ledss" specified in vector source file has ports with indices that do not fall in the range of port ledss[1:7] in top level design of Quartus II project
+Warning (201007): Can't find port "ledss[0]" in design
+Warning (201007): Can't find port "X" in design
+Warning (201007): Can't find port "X[3]" in design
+Warning (201007): Can't find port "X[2]" in design
+Warning (201007): Can't find port "X[1]" in design
+Warning (201007): Can't find port "X[0]" in design
+Warning (201007): Can't find port "Y" in design
+Warning (201007): Can't find port "Y[3]" in design
+Warning (201007): Can't find port "Y[2]" in design
+Warning (201007): Can't find port "Y[1]" in design
+Warning (201007): Can't find port "Y[0]" in design
+Warning (201007): Can't find port "Cin" in design
+Info (201000): Generated Verilog Test Bench File ./simulation/qsim/Lab3.vt for simulation
+Error: Quartus II 32-bit EDA Netlist Writer was unsuccessful. 5 errors, 20 warnings
+    Error: Peak virtual memory: 318 megabytes
+    Error: Processing ended: Wed Oct  4 18:05:14 2023
+    Error: Elapsed time: 00:00:00
+    Error: Total CPU time (on all processors): 00:00:01
+
+
