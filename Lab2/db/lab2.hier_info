@@ -1,0 +1,28 @@
+|lab2_block1
+F7 <= lab2_vhdl1:inst.f7
+x1 => lab2_vhdl1:inst.x1
+x2 => lab2_vhdl1:inst.x2
+x3 => lab2_vhdl1:inst.x3
+x4 => lab2_vhdl1:inst.x4
+
+
+|lab2_block1|lab2_vhdl1:inst
+x1 => f7~2.IN0
+x1 => f7~5.IN0
+x1 => f7~12.IN0
+x2 => f7~0.IN0
+x2 => f7~5.IN1
+x2 => f7~12.IN1
+x2 => f7~2.IN1
+x3 => f7~6.IN1
+x3 => f7~9.IN1
+x3 => f7~13.IN1
+x3 => f7~0.IN1
+x3 => f7~3.IN1
+x4 => f7~7.IN1
+x4 => f7~1.IN1
+x4 => f7~10.IN1
+x4 => f7~14.IN1
+f7 <= f7~15.DB_MAX_OUTPUT_PORT_TYPE
+
+

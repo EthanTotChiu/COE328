@@ -1,0 +1,8 @@
+|Prelab
+f <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+x2 => inst2.IN0
+x2 => inst.IN0
+x1 => inst2.IN1
+x1 => inst.IN1
+
+

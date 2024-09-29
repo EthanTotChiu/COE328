@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/student2/edchiu/Desktop/coe328/Lab2/lab2_waveform.vwf
+source_file = 1, /home/student2/edchiu/Desktop/coe328/Lab2/lab2.bdf
+source_file = 1, /home/student2/edchiu/Desktop/coe328/Lab2/lab2_vhdl1.vhd
+source_file = 1, /home/student2/edchiu/Desktop/coe328/Lab2/lab2_block1.bdf
+source_file = 1, /home/student2/edchiu/Desktop/coe328/Lab2/db/lab2.cbx.xml
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = lab2_block1
+instance = comp, \x3~I , x3, lab2_block1, 1
+instance = comp, \x1~I , x1, lab2_block1, 1
+instance = comp, \x4~I , x4, lab2_block1, 1
+instance = comp, \x2~I , x2, lab2_block1, 1
+instance = comp, \inst|f7~0 , inst|f7~0, lab2_block1, 1
+instance = comp, \F7~I , F7, lab2_block1, 1
